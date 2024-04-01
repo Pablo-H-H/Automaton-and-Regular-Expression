@@ -1,0 +1,29 @@
+---------------commmands that are valid----------------
+dfa("Áre").
+dfa("áre").
+
+dfa("Asca").
+dfa("asca").
+
+dfa("Arda").
+dfa("arda").
+
+dfa("Atan").
+dfa("atan").
+
+dfa("Avari").
+dfa("avari").
+
+---------------commmands that are invalid----------------
+
+dfa("Árde").
+dfa("árde").
+
+dfa("Ascar").
+dfa("ascar").
+
+dfa("Atar").
+dfa("atar").
+
+dfa("Anari").
+dfa("anari").
