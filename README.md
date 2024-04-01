@@ -22,6 +22,40 @@ section containing examples of commands that return false.
 
 In the case of python regular expressions there is already a series of tests, these are also divided into tests that return true and those that return false
 
+Examples of valid commands in prolog:
+```
+dfa("Áre").
+dfa("áre").
+
+dfa("Asca").
+dfa("asca").
+
+dfa("Arda").
+dfa("arda").
+
+dfa("Atan").
+dfa("atan").
+
+dfa("Avari").
+dfa("avari").
+
+```
+
+Examples of invalid commands in prolog:
+```
+dfa("Árde").
+dfa("árde").
+
+dfa("Ascar").
+dfa("ascar").
+
+dfa("Atar").
+dfa("atar").
+
+dfa("Anari").
+dfa("anari").
+```
+
 ## Analysis
 
 The complexity of the prolog model is O(n) where n is the number of letters that the word has, this is because each iteration of i, if i exists within n, then i increments.
