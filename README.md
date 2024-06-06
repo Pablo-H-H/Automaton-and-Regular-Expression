@@ -9,7 +9,8 @@ fictional works. Throughout many fantasy stories, including J.R.R. Tolkien's "Th
 To create an automaton we first need to make a diagram that we can use as a reference to create our code and tests. The diagram of the following automaton has initial states q0 and q1, and final states a2, b3, c2, 
 d2, and e3.
 
-![AutomatonDiagram drawio](https://github.com/Pablo-H-H/Automaton-and-Regular-Expression/assets/111140061/396f166f-348e-40b8-8072-bb8cac8a6e38)
+
+![Diagrama sin título drawio (6)](https://github.com/Pablo-H-H/Automaton-and-Regular-Expression/assets/111140061/cbd5d249-67d5-420b-93c1-5862a1f275b0)
 
 
 Subsequently and based on this, the prolog program was created which is found in the automaton.pl file, with this it was found that the regular expressions are the following (áre)|(Áre)|(asca)|(Asca)|( arda)|(Arda)|
